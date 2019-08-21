@@ -1,0 +1,86 @@
+h1 {
+    padding: 3%;
+    margin: 7%;
+    color: indianred;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 10%;
+}
+
+h3 {
+    color: indianred;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.hdr {
+  color: whitesmoke;
+  font-size: 30px;
+}
+
+p {
+    font-family: Thasadith;
+    font-size: 20px;
+}
+
+a{
+  font-size: 18px;
+  padding: 7%;
+  border: 4px solid rgb(205,92,92,0.6);
+}
+
+#connect {
+  font-family: Thasadith;
+  font-size: 18px;   
+  top: 80%;
+  padding: 2%;
+  left: 50%;
+
+}
+
+#nav{
+  float: right;
+  margin-right: 5%;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+}
+
+/* Control the right side */
+.right {
+  background-color: rgb(56,57,97, 0.5);
+  color: whitesmoke;
+  right: 0;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+img {
+  width: 90%;
+  height: 100%;
+}
+
+@media (max-width: 1000px) {
+
+.split {}
+
+
+}

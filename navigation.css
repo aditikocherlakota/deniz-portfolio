@@ -1,0 +1,49 @@
+/* -------------------------------------------------------------
+
+    Navigation menu at top
+
+   Modified slightly from COMP117 Website Framework.
+
+   ------------------------------------------------------------- */
+
+#nav ul {
+  padding: 0 0;
+  margin: 0;
+  margin-left: 0;
+  font: 16px Tahoma, sans-serif;
+}
+
+#nav ul li
+{
+  list-style:none;
+  line-height:3em;  /* helps prevent overlap on wrapping */
+  margin: 0px;
+  display: inline;
+}
+
+#nav ul li a {
+  padding: 3px;
+  margin-left: 0px;
+  border: 2px solid ;
+  background: #DDE;
+  text-decoration: none;
+}
+
+#nav ul li a:link {
+  color: black
+}
+
+#nav ul li a:visited {
+  color: black
+}
+
+#nav ul li a:hover, #nav ul li a:visited hover {
+  color: #000;
+  background: #AAE;
+  border-color: black;
+}
+
+#nav ul li a#current {
+  background: white;
+  border: 3px solid;
+}

@@ -1,0 +1,40 @@
+h1{
+    color: rgb(250,218,94);
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    font-size: 70px;
+    margin: 0 auto;
+}
+
+p {
+    font-family: Thasadith;
+    font-size: 20px;
+}
+
+#descr{
+    margin-top: 5%;
+}
+
+img {
+    margin: 5%;
+    float: left;
+    width: 25%;
+}
+
+h3 {
+    color: #383961;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+    margin: 0;
+   
+}
+
+h5{
+    font-family: Thasadith;
+    font-size: 18px;   
+}
+
+body{
+    width: 80%;
+    margin: 0 auto;
+}
