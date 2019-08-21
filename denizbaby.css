@@ -1,0 +1,44 @@
+
+h1{
+    font-family:Dancing Script;
+    color: indianred;
+    font-size: 65px;
+    text-align: center;
+}
+
+body {
+     padding-top: 5%;
+}
+
+.gallery {
+    text-align: center;
+}
+
+p {
+    font-family: Thasadith;
+    text-align: center;
+}
+
+img {
+    object-fit: cover;
+    width: 300px;
+    height: 350px;
+    margin: 10px;
+}
+
+.superimpose {
+    position: relative;
+    display: inline-block;
+}
+
+.superimpose .top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.superimpose:hover .top {
+    display: inline;
+}
